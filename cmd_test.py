@@ -12,3 +12,4 @@ parser.add_argument('--square',help='please enter a number:',type=int,default=10
 #parser.add_argument('input_str',help='please enter a character:',type=str)
 args=parser.parse_args()
 print(args.square**3)
+print('hello,world')
